@@ -7,10 +7,10 @@ type Props = {};
 export default function Account({}: Props) {
   const [view, setView] = useState("all");
   const [users, setUsers] = useState([]);
-  const [formAUsername, setFormAUsername] = useState("");
-  const [formAPassword, setFormAPassword] = useState("");
-  const [formAFullname, setFormAFullname] = useState("");
-  const [formAPrivilegeID, setFormAPrivilegeID] = useState(1);
+  const [formAUsername, setFormAUsername] = useState<any>("");
+  const [formAPassword, setFormAPassword] = useState<any>("");
+  const [formAFullname, setFormAFullname] = useState<any>("");
+  const [formAPrivilegeID, setFormAPrivilegeID] = useState<any>(1);
 
   const createUser = () => {
     let token: any = localStorage.getItem("token");
