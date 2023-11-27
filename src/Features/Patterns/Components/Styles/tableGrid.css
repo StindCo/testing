@@ -1,0 +1,23 @@
+.ag-theme-material {
+    --ag-header-height: 50px;
+    --ag-header-foreground-color: white;
+    /* --ag-header-background-color: #0b536b; */
+    --ag-header-cell-hover-background-color: #333;
+    --ag-header-cell-moving-background-color: #333;
+    --ag-list-item-height: 20px;
+    --ag-grid-size: 7px;
+    --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+    --ag-cell-horizontal-padding: 2%;
+}
+/*
+.ag-theme-material .ag-header {
+    font-family: cursive;
+}
+.ag-theme-material .ag-header-group-cell {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 10px;
+}
+.ag-theme-material .ag-header-cell {
+    font-size: 18px;
+} */
